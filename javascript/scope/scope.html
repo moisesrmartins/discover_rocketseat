@@ -1,9 +1,14 @@
 <script>
     
-    let number=1
+    let number= 1
 
-    console.log('Existe number antes do bloco?', number)
+    console.log('Existe number depois do bloco', number)
 
-    //'number' ganha uma definicao
-    //'number' e trocada por '1' na caixa
+    {
+        number= 1
+        console.log('Existe number', number)
+    }
+
+    console.log('Existe number antes do bloco', number)
+    
 </script>
