@@ -7,15 +7,3 @@ function createphrases() {
 }
 
 createphrases()
-
-console.log('Fim')
-
-function createphrases() {
-    console.log('Tempo e dinheiro')
-    console.log('Estou cansado')
-    console.log('Sem tempo')
-}
-
-createphrases()
-
-console.log('Acabou')
