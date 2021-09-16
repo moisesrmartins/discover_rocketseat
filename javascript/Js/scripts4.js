@@ -23,7 +23,7 @@ console.log('New')
 let name1= new String('Moises')
 let age1= new Number('17')
 let date1= new Date('2003-09-22')
-console.log(name)
+console.log(name1)
 console.log(age1) 
 console.log(date1)
 
