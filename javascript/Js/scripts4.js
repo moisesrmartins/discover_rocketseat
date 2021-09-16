@@ -100,3 +100,39 @@ console.log(total3)
 let total4= (3 - 2) / 5
 console.log(total4)
 
+console.log('Igual e Diferente')
+
+let one= 1
+let two= 2
+
+//Igual: '=='
+console.log(two == 1)
+console.log(one == '1')
+
+//Diferente '!='
+console.log(one != two)
+console.log(one != 1)
+console.log(one != '1')
+
+//Estritamente igual: '==='
+console.log(one ==='1')
+console.log(one === 1)
+
+//Estritamente diferente: '!=='
+console.log(two !== '2')
+console.log(two !== 2)
+
+//Maior que: '>'
+console.log(one > two)
+
+//Maior igual a: '>='
+console.log(one >= 1)
+console.log(two >= 1)
+
+//Menor que: '<'
+console.log(one < two)
+
+//Menor igual a: '<='
+console.log(one <= two)
+console.log(one <= 1)
+console.log(one <= 0)
