@@ -86,3 +86,17 @@ let exponencial= 3
 exponencial **
 console.log(3 ** 2)
 
+console.log('Grouping')
+
+let total1= 3 + 2 * 5
+console.log(total1)
+
+let total2= (3 + 2) * 5
+console.log(total2)
+
+let total3= 3 - 2 / 5
+console.log(total3)
+
+let total4= (3 - 2) / 5
+console.log(total4)
+
