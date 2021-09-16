@@ -53,3 +53,36 @@ const person3= {
 delete person3.date4
 delete person3.age4
 console.log(person3)
+
+console.log('Operadoes Aritmeticos')
+
+//Multiplicacao:
+console.log(3 * 2)
+
+//Divisao:
+console.log(3 / 2)
+
+//Soma:
+console.log(3 + 2)
+
+//Subtracao:
+console.log(3 - 2)
+
+//Resto da divisao:
+console.log(3 % 2)
+
+//Incremento:
+let increment= 3
+increment ++
+console.log(increment)
+
+//Decremento:
+let decrement= 3
+decrement --
+console.log(decrement)
+
+//Exponencial:
+let exponencial= 3
+exponencial **
+console.log(3 ** 2)
+
