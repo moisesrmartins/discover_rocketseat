@@ -1,14 +1,25 @@
 <script>
-    
-    let number= 1
-
-    console.log('Existe number depois do bloco', number)
-
     {
-        number= 1
-        console.log('Existe number', number)
+        let number=  1
+        console.log(number)
     }
+</script>
 
-    console.log('Existe number antes do bloco', number)
-    
+<script>
+       console.log('Existe number antes do bloco?', number)
+    {
+        let number=  2
+        console.log(number)
+    }
+// sem definicao para 'number'
+// ocorre quebra no codigo
+</script>
+
+<script>
+    let number= 3
+
+    console.log('Existe number antes do bloco?', number)
+
+    //'number' ganha uma definicao
+    //'number' e trocada por '3' na caixa
 </script>
