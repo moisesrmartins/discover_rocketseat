@@ -122,3 +122,24 @@ console.log(calculate(3, '+', 2))
 console.log(calculate(3, '-', 2))
 console.log(calculate(3, '*', 2))
 console.log(calculate(3, '/', 2))
+
+console.log('Throw e Try/Catch')
+
+//Throw
+
+function sayMyName(name= ''){
+    if(name=== ''){
+        throw 'Nome e obrigatorio'
+    }
+
+    console.log(name)
+}
+
+//Try/Catch
+
+try{
+    sayMyName('Moises')
+} catch(e){
+    console.log(e)
+}
+console.log('Apos a funcao de erro')
