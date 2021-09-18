@@ -50,3 +50,75 @@ if(highTemperature3){
 }else if(lowerTemperature3){
     console.log('Esta saudavel')
 }
+
+console.log('Switch')
+
+let expression1= 'a'
+
+switch(expression1){
+    case 'a':
+        console.log('a')
+        break
+    case 'b':
+        console.log('b')
+        break
+    default:
+        console.log('defalt')
+        break
+}
+
+let expression2= 'b'
+
+switch(expression2){
+    case 'a':
+        console.log('a')
+        
+    case 'b':
+        console.log('b')
+        break
+    default:
+        console.log('defalt')
+        break
+}
+
+let expression3= 'default'
+
+switch(expression3){
+    case 'a':
+        console.log('a')
+        
+    case 'b':
+        console.log('b')
+        
+    default:
+        console.log('defalt')
+        break
+}
+
+function calculate(number1, operator, number2){
+    let result
+    switch(operator){
+        case "+":
+            result= number1 + number2
+            break
+        case "-":
+            result= number1 - number2
+            break
+        case "*":
+            result= number1 * number2
+            break
+        case "/":
+            result= number1 / number2
+            break
+        default:
+            console.log('Nao implementado')
+            break
+    }
+
+    return result
+}
+
+console.log(calculate(3, '+', 2))
+console.log(calculate(3, '-', 2))
+console.log(calculate(3, '*', 2))
+console.log(calculate(3, '/', 2))
