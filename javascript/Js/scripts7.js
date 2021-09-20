@@ -51,3 +51,43 @@ console.log(getScore(64))
 console.log(getScore(55))
 console.log(getScore(38))
 console.log(getScore(-1))
+
+console.log('Fluxo de caixa familiar')
+
+let family1= {
+    incomes: [8100, 2500, 350, 220]
+}
+
+let family2= {
+    expenses: [4500, 315, 214, 116]
+}
+
+function sum(array){
+    let total= 0;
+
+    for (let value of array){
+        total += value
+    }
+
+    return total
+}
+
+function calculateBalance(){
+    const calculateIncomes= sum(family1.incomes)
+    const calculateExpenses= sum(family2.expenses)
+
+    const total= calculateIncomes - calculateExpenses
+
+    const itsOk= total >= 0
+
+    let balanceText= 'negativo'
+
+    if(itsOk){
+        balanceText= 'positivo'
+    }
+
+    console.log(`Seu saldo e ${balanceText}: ${total}`)
+
+}
+
+calculateBalance()
