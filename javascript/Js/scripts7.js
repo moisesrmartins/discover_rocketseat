@@ -91,3 +91,52 @@ function calculateBalance(){
 }
 
 calculateBalance()
+
+console.log('Celsius to Farenheit')
+
+//transformDegree('50F')
+
+function transformDegree1(degree){
+
+    const celsiusExists= degree.toUpperCase().includes('C')
+    const farenheitExits= degree.toUpperCase().includes('F')
+
+    //Fluxo ideal, F -> C
+    let updatedDegree1= Number(degree.toUpperCase().replace("F", ""));
+    let formula1= (farenheit) => (farenheit - 32) * 5/9
+    let degreeSign1= 'C'
+
+    return formula1(updatedDegree1) + degreeSign1
+}
+
+function transformDegree2(degree){
+
+    const celsiusExists= degree.toUpperCase().includes('C')
+    const farenheitExits= degree.toUpperCase().includes('F')
+
+    //Fluxo alternativo, C -> F
+    let updatedDegree2= Number(degree.toUpperCase().replace("C", ""));
+    let formula2= celsius => celsius * 9/5 + 32
+    let degreeSign2= 'F'
+
+    return formula2(updatedDegree2) + degreeSign2
+}
+
+function transformDegree3(degree){
+
+    const celsiusExists= degree.toUpperCase().includes('C')
+    const farenheitExits= degree.toUpperCase().includes('F')
+
+    //Fluxo de Erro
+    if(!celsiusExists && !farenheitExits){
+        throw new Error('Grau nao identificado')
+    }
+}
+
+try{
+    console.log(transformDegree1('50F'))
+    console.log(transformDegree2('10C'))
+    transformDegree3('30Z')
+} catch(error){
+    console.log(error)
+}
