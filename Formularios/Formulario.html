@@ -1,0 +1,97 @@
+<form action= "">
+<fieldset>
+    <legend>
+        formulario
+    </legend>
+    Nome
+    <div>
+        <label>
+            <input type="text" placeholder="Coloque seu Nome">
+        </label>
+    </div>
+    Sobrenome
+    <div>
+        <label>
+            <input type="text" placeholder="Coloque seu Sobrenome">
+        </label>
+    </div>
+    Idade
+    <div>
+        <label>
+            <input type="number" placeholder="Coloque sua idade">
+        </label>
+    </div>
+    Senha
+    <div>
+        <label>
+            <input type="passowrd" 
+            minlength="6"
+            size="12"
+            placeholder="Coloque sua senha">
+        </label>
+    </div>
+    Confirmar Senha
+    <div>
+        <label>
+            <input type="confirm passowrd" 
+            minlength="6"
+            size="12"
+            placeholder="Confirmar senha">
+        </label>
+    </div>
+    Email
+    <div>
+        <label>
+            <input type="email" placeholder="Coloque seu email">
+        </label>
+    </div>
+    Confirmar email
+    <div>
+        <label>
+            <input type="confirm email" placeholder="Confirmar email">
+        </label>
+    </div>
+    Numero de telefone
+    <div>
+        <input type="phone number" placeholder="Coloque seu numero de telefone">
+    </div>
+    Pergunta de confirmacao
+    <div>
+        <input
+        type="text"
+        list="questionsdata"
+        placeholder="Escolha uma pergunta"/>
+        
+        <datalist id="questionsdata">
+          <option>Qual o nome de sua cidade natal?</option>
+          <option>Qual sua comida favorita?</option>
+          <option>Qual o nome do seu bichinho de estimacao?</option>
+          <option>Qual o nome da escola que voce estudou?</option>
+          <option>Qual o primeiro jogo que zerou?</option>
+        </datalist>
+    </div>
+    Resposta da pergunta
+    <div>
+        <label>
+            <input type="answer of the question" placeholder="Local de resposta">
+        </label>
+    </div>
+    Mensagem
+    <div>
+        <textarea placeholder="Escreva um motivo para entrar na empresa"
+        cols="30" rows="10"></textarea>
+    </div>
+    <legend>Aceite os Termos</legend>
+    <div>
+        <input type="checkbox" id="subscribe" name="interest" value="subscribe">
+        <label for= "subscribe">Aceitar Termos de Usuario</label>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="interest" value="subscribe">
+        <label  for= "subscribe">Aceitar Termos e Condicoes</label>
+    </div>
+</fieldset>
+
+<form>
+    <button type="submit">Enviar</button>
+</form>
