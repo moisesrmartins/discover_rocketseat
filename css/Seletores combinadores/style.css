@@ -1,0 +1,67 @@
+h1{
+    color: blue;
+    front-size: 60px;
+  }
+  p{
+    color: green;
+  }
+  
+  #title{
+    color: red;
+  }
+  #content{
+    color: purple;
+  }
+  
+  .blue{
+    color: brown;
+  }
+  .brown{
+    color: blue;
+  }
+  .big{
+    font-size: 2em;
+  }
+  .red{
+    color: red;
+  }
+  
+  [phrase]{
+    color: orange;
+  }
+  [question]{
+    color: green;
+  }
+  
+  h4:hover {
+    color: red;
+  }
+  
+  h1, .red {
+    color: red;
+  }
+
+body article h1 {
+    color: red;
+  }
+  body article h2 {
+    color: blue;
+  }
+  body article h3 {
+    color: purple;
+  }
+
+body > ul > li {
+    color: blue;
+  }
+
+h1 + p {
+    color: red;
+  }
+  button + button {
+    margin-left: 22px;
+  }
+  
+  h1 ~ p {
+    color: blue;
+  }
