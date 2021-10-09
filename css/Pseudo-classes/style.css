@@ -1,0 +1,34 @@
+ul li:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+article {
+    font-size: 20px;
+}
+article p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 40 px;
+    color: red;
+}
+article p:nth-child(2) {
+    font-weight: bold;
+    font-size: 30px;
+    color:purple;
+}
+ul li:nth-child(odd) {
+    color: blue;
+}
+  ul li:nth-child(even) {
+    color: green;
+}
+a:hover {
+    color: black;
+}
+  input:focus {
+    border-color: blue;
+    outline: none;
+}
+input:disabled {
+    background-color: black;
+}
