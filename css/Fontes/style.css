@@ -1,0 +1,56 @@
+p1 {
+    font-family: serif;
+    font-weight: bold;
+}
+  p2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+}
+  p3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-stretch: 50%;
+}
+  p4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    font-stretch: 50%;
+    letter-spacing: 4px;
+    world-spacing: 4px;
+    line-height: 1.6;
+    text-transform: Capitalize;
+}
+  p5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-stretch: 50%;
+    letter-spacing: 4px;
+    world-spacing: 4px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    text-decoration: overline solid red;
+    text-align: right;
+}
+  p6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    font-stretch: 50%;
+    letter-spacing: 4px;
+    world-spacing: 4px;
+    line-height: 1.6;
+    text-transform: lower;
+    text-decoration: underline wavy blue;
+    text-align: center;
+    text-shadow: 1px 1px 1px red;
+}
