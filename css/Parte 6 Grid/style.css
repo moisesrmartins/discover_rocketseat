@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer footer";
+    grid-template-rows: 40px 1fr 40px;
+    grid-template-columns: 1fr 400px;
+}
+  header {
+    grid-area: header;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: red;
+}
+  main {
+    grid-area: main;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: green;
+}
+  aside {
+    grid-area: aside;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: purple;
+}
+  footer {
+    grid-area: footer;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: brown;
+}
