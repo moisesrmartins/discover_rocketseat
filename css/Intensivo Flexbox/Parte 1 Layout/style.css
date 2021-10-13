@@ -1,0 +1,14 @@
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.item:nth-child(1) {
+    order: 1;
+}
+.item:nth-child(2) {
+    order: 2;
+}
+.item:nth-child(3) {
+    order: 3;
+}
