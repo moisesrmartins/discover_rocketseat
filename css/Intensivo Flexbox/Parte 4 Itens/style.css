@@ -1,0 +1,51 @@
+.box {
+    display: flex;
+    border: 1px dashed red;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 160px;
+}
+.box div {
+    border: 1px solid;
+    height: 15px;
+    width: 200vh;
+    flex-basis: 100%;
+}
+.box div:nth-child(1) {
+    width: 2000px;
+    height: 50px;
+}
+.box div:nth-child(2) {
+    flex-shrink: 2;
+}
+* {
+    
+}
+.page {
+    border: 2px solid;
+    min-height: 100vh;
+    display: flex;
+}
+aside {
+    background: lightgreen;
+    flex: 1;
+}
+main {
+    background: lightblue;
+    flex: 2;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+main section:nth-child(1) {
+    background: lightgoldenrodyellow;
+    flex: 2;
+}
+main section:nth-child(2) {
+    background: lightsalmon;
+    flex: 2;
+}
+main section:nth-child(3) {
+    background: lightpink;
+    flex: 2;
+}
