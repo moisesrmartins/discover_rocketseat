@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+}
+.box {
+    display: flex;
+    border: 1px dashed red;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box div {
+    border: 1px solid;
+    height: 15px;
+    width: 200vh;
+}
