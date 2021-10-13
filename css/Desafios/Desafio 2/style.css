@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    gap: 1rem;
+}
+aside {
+    border: 1px solid red;
+    color: red;
+    background: gray;
+    height: 80vh;
+    flex-basis: 20%;
+}
+main {
+    border: 1px solid blue;
+    color: blue;
+    background: gray;
+    height: 50vh;
+    flex-basis: 10%
+}
