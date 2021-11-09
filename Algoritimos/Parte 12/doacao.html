@@ -1,0 +1,35 @@
+algoritmo "doacao"
+var
+     V, D: Inteiro
+inicio
+     Escreval ("------------------")
+     Escreval (" Caixa de Doacoes ")
+     Escreval ("------------------")
+     Escreval (" Muito obrigado por ajudar ")
+     Escreval (" [1] para doar 50 ")
+     Escreval (" [2] para doar 30 ")
+     Escreval (" [3] para doar 20 ")
+     Escreval (" [4] para outro valor ")
+     Escreval (" [5] para cancelar ")
+     Leia (D)
+     Escolha D
+          Caso 1
+               V <- 50
+          Caso 2
+               V <- 30
+          Caso 3
+               V <- 20
+          Caso 4
+               Escreval ("Informe o valor que deseja doar? R$")
+               Leia (V)
+          Caso 5
+               Escreval ("Cancelando doacao, tenha um bom dia ")
+               V <- 0
+     FimEscolha
+     Escreval ("---------------------------")
+     Escreval (" Sua doacao foi de R$", V)
+     Escreval (" Muito Obrigado!")
+     Escreval ("---------------------------")
+fimalgoritmo
+
+<script src="./doacao.js"></script>
