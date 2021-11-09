@@ -1,0 +1,31 @@
+algoritmo "detectordepeso"//
+var
+      I: Inteiro
+      N, pesado: Caractere
+      P, M: Real
+Procedimento Topo ()
+Inicio
+      LimpaTela
+      Escreval ("--------------------------------")
+      Escreval ("D E T E C T O R  D E  P E S O ")
+      Escreval ("Maior Peso ate agora: ",M, "Kg")
+      Escreval ("--------------------------------")
+FimProcedimento
+inicio
+      Topo ()
+      Para I <- 1 ate 3 faca
+            Escreva ("Digite o nome: ")
+            Leia (N)
+            Escreva ("Digite o peso de ", N, ": ")
+            Leia (P)
+            Se (P>M) entao
+                  M <- P
+                  pesado <- N
+            FimSe
+      Topo ()
+      FimPara
+      Topo ()
+      Escreval ("A pessoa mais pesada foi ", pesado, ", com ", M, " quilos.")
+fimalgoritmo
+
+<script src="./contadordepeso.js"></script>
