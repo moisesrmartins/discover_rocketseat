@@ -1,0 +1,19 @@
+algoritmo "condicional"
+var
+   ano, nasc, idade: Inteiro
+inicio
+   Escreval ("Em que ano estamos? ")
+   Leia (ano)
+   Escreval ("Em que ano você nasceu? ")
+   Leia (nasc)
+   idade <- ano - nasc
+   Escreval ("Em ", ano, " você tem ", idade, " anos.")
+   Se (idade >=  18) Entao
+      Escreval ("Então você já é maior de idade")
+   FimSe
+   Se (idade <= 17) entao
+      Escreval ("Então você é menor de idade")
+   FimSe
+fimalgoritmo
+
+<script src="./condicional.js"></script>
