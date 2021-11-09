@@ -1,0 +1,51 @@
+algoritmo "matrizes"
+var
+    m: vetor [1..4, 1..4] de Inteiro
+    l, c, sDP, p1L, p2L, p3L, p4L: Inteiro
+inicio
+    sDP <- 0
+    p1L <- 1
+    p2L <- 1
+    p3L <- 1
+    p4L <- 1
+    Para l <- 1 ate 4 faca
+        Para c <- 1 ate 4 faca
+            Escreva ("Digite o valor da posicao [", l, ",", c,"]: ")
+            Leia (m [l, c])
+            Se (1 = c) entao
+               sDP <- sDP + m[l, c]
+            FimSe
+        FimPara
+    FimPara
+    Para l <- 1 ate 4 faca
+        Para c <- 1 ate 4 faca
+             Escreva (m[l, c]:4)
+        FimPara
+        
+        Para c <- 1 ate 4 faca
+             p1L <- p1L + m[1, c]
+        FimPara
+        
+        Para c <- 1 ate 4 faca
+             p2L <- p2L + m[2, c]
+        FimPara
+        
+        Para c <- 1 ate 4 faca
+             p3L <- p3L + m[3, c]
+        FimPara
+        
+        Para c <- 1 ate 4 faca
+             p4L <- p4L + m[4, c]
+        FimPara
+        Escreval ()
+    FimPara
+    
+    Escreval ()
+    Escreval ("A soma dos valores da Diagonal Principal e ", sDP)
+    Escreval ("O produto dos valores da primeira linha e ", p1L)
+    Escreval ("O produto dos valores da segunda linha e ", p2L)
+    Escreval ("O produto dos valores da terceira linha e ", p3L)
+    Escreval ("O produto dos valores da quarta linha e ", p4L)
+fimalgoritmo
+
+<script src="./valoresdematrizes.js"></script>
