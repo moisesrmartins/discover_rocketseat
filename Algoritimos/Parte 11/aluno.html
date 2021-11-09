@@ -1,0 +1,22 @@
+algoritmo "Aluno"
+var
+   N1, N2, M: Real
+inicio
+   Escreval ("Primeira Nota: ")
+   Leia (N1)
+   Escreval ("Segunda Nota: ")
+   Leia (N2)
+   M <- (N1 + N2) / 2
+   Escreval ("A media do aluno foi ", M:4:2)
+   Se (M >= 10) entao
+      Escreval ("Aluno aprovado")
+   FimSe
+   Se (M >= 5) e (M < 10) entao
+      Escreval ("O aluno está de recuperacao")
+   FimSe
+   Se (M <= 5) entao
+      Escreval ("O aluno reprovou")
+   FimSe
+fimalgoritmo
+
+<script src="./aluno.js"></script>
