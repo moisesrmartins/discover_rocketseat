@@ -1,0 +1,29 @@
+algoritmo "vetorparouimpar"
+var
+   val: vetor [1..6] de Inteiro
+   i, TotPar, TotImpar: Inteiro
+inicio
+   TotPar <- 0
+   TotImpar <- 0
+   Para i <- 1 ate 6 faca
+      Escreva ("Digite o ", i, "o. valor: ")
+      Leia (val[i])
+   FimPara
+
+   Para i <- 1 ate 6 faca
+      Se (val[i] % 2 = 0) entao
+         TotPar <- TotPar + 1
+         Escreval ("Valor PAR na posicao ", i)
+      senao
+         TotImpar <- TotImpar + 1
+         Escreval ("Valor Impar na posicao ", i)
+      FimSe
+   FimPara
+   Escreval ("O total de pares foi ", TotPar)
+   Escreval ("O valor de impares foi ", TotImpar)
+   Para i <- 1 ate 6 faca
+      Escreva ("{", val[i], "}")
+   FimPara
+fimalgoritmo
+
+<script src="./vetorparouimpar.js"></script>
