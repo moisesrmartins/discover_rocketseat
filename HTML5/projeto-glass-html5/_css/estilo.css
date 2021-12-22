@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Fontelogo' ;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(168, 168, 168, 0.856);
+    color: black;
+}
+div#interface {
+    width: 900px;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    box-shadow: 2px 2px 10px black;
+    padding: 10px 10px 10px 10px;
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+header#cabeçalho img#icone {
+    position: absolute;
+    left: 750px;
+    top: 40px;
+}
+header#cabeçalho {
+    border-bottom: 1px black solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+header#cabeçalho h1 {
+    font-family: 'Fontelogo', sans-serif;
+    font-size: 30pt;
+    color:rgba(168, 168, 168, 0.856);
+    text-shadow: 1px 1px 2px black;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabeçalho h2 {
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    color: rgba(168, 168, 168, 0.856);
+}
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid rgba(168, 168, 168, 0.856);
+    box-shadow: 2px 2px 4px;
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(168, 168, 168, 0.856);
+    color: black;
+    box-shadow: 2px 2px 4px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: rgba(168, 168, 168, 0.856);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+}
+nav#menu li:hover {
+    background-color: white;
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+section#corpo {
+    display: block;
+    width: 480px;
+    float: left;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+article#noticia-principal h2 {
+    font-size: 12pt;
+    color: black;
+    background-color: rgba(168, 168, 168, 0.856);
+    padding: 5px 0px 2px 0px;
+    margin: 10px 0px 10px 0px;
+}
+header#cabeçalho-artigo h1 {
+    font-family: 'Fontelogo', sans-serif;
+    font-size: 20pt;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header#cabeçalho-artigo h2 {
+    font-size: 13pt;
+    color: black;
+    background-color: white;
+    margin: 0px;
+}
+header#cabeçalho-artigo h3 {
+    font-size: 12px;
+    color: black;
+}
+
+table#tabela {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabela td {
+    background-color: rgba(168, 168, 168, 0.856);
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+table#tabela td.ce {
+    color: white;
+    background-color: black;
+    vertical-align: top;
+    font-weight: bold;
+}
+table#tabela td.cd {
+    color: black;
+}
+table#tabela caption {
+    color:black;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table#tabela caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: gainsboro;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+aside#lateral h1 {
+    font-family: 'Fontelogo', sans-serif;
+    font-size: 20pt;
+    color: black;
+    margin-top: 0px;
+}
+aside#lateral h2 {
+    background-color: rgba(168, 168, 168, 0.856);
+    font-size: 12pt;
+    padding: 5px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
